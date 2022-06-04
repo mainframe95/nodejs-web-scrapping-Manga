@@ -1,0 +1,21 @@
+{
+  "name": "work_with_excel",
+  "version": "1.0.0",
+  "description": "read excel file and save it on db  ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mainframe95",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "fast-xlsx-reader": "^0.3.1",
+    "nodemon": "^2.0.16",
+    "puppeteer": "^14.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
